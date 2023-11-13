@@ -1,0 +1,29 @@
+{
+	"ClickHouseDatabase": {
+		"Host": "localhost",
+		"Username": "username",
+		"Password": "password",
+		"Database": "database",
+		"Port": "3306",
+		"ConnectTimeout": "10",
+		"Timeout": "60s"
+	},
+	"Redis": {
+		"Host": "127.0.0.1",
+		"Password": "password",
+		"Port": "6379"
+	},
+	"Rabbitmq": {
+		"Host": "127.0.0.1",
+		"Vhost": "/",
+		"Username": "guest",
+		"Password": "guest",
+		"Port": "5672"
+	},
+	"ClickhouseKafkaBrokerIp": "localhost",
+	"ClickhouseKafkaTopic": "test-topics-new",
+	"QueueType": "rabbitmq",
+	"ServiceName": "webhook",
+	"OTLPEndpoint": "localhost:4317",
+	"InsecureMode": "true"
+}
